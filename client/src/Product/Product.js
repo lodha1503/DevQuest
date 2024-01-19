@@ -1,10 +1,12 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Product.css'
+import ProductPopup from './productPopup';
 import { useStateValue } from '../StateProvider';
 
 function Product({id,title,image,price,rating}) {
 
   const [{ basket} , dispatch] = useStateValue();
+  const [isPopupVisible, setPopupVisibility] = useState(false);
   const addToBasket=()=>{
     // Dispatch the item into the data layer
 
@@ -19,8 +21,15 @@ function Product({id,title,image,price,rating}) {
       },
     });
   }
+  const openPopup = () => {
+    setPopupVisibility(true);
+  };
+
+  const closePopup = () => {
+    setPopupVisibility(false);
+  };
   return (
-    <div className='product'>
+    <div className={`product ${isPopupVisible ? 'popup-active' : ''}`} onClick={openPopup}>
 
       <div className="product_info">
         <p>{title}</p>
@@ -33,13 +42,20 @@ function Product({id,title,image,price,rating}) {
           
           
         </div>
-
         
       </div>
 
       <img src={image} alt="" />
 
       <button onClick={addToBasket}>Add to Wishlist</button>
+
+      {isPopupVisible && (
+        <ProductPopup
+          product={{ id, title, image, price, rating }}
+          onClose={closePopup}
+          isPopupVisible={isPopupVisible}
+        />
+      )}
 
 
     </div>
