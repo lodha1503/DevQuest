@@ -4,7 +4,36 @@ const options = {
     keys: ['title'],
   };
   
-  const fuse = new Fuse(data, options);
+const fuse = new Fuse(data, options);
+
+//suggestions
+
+
+
+
+
+
+
+
+// suggestions
+const suggestProducts = (req, res) => {
+  const query = req.params.title.toLowerCase();
+
+  
+
+
+    const fuseResults = fuse.search(query);
+
+    if (fuseResults.length > 0) {
+      const suggestions = fuseResults.slice(0, 10).map(result => result.item.title);
+      res.json(suggestions);
+    } else {
+      res.status(404).json({ error: 'Products not found with the specified title' });
+    }
+  
+};
+
+
 //display items
 const displayProducts = (req,res)=>{
 
@@ -64,4 +93,4 @@ const searchProducts = (req,res) => {
 // }
 
 
-module.exports = {displayProducts,searchProducts};
+module.exports = {displayProducts,searchProducts,suggestProducts};
