@@ -5,6 +5,6 @@ const router = express.Router();
 
 router.use("/title/:title", displayProducts);
 router.use("/search/:title", searchProducts);
-router.use("/title/:title/:site", filterBySite);
+// router.use("/title/:title/:site", filterBySite);
 
 module.exports = router;

@@ -64,4 +64,4 @@ const searchProducts = (req,res) => {
 // }
 
 
-module.exports = {displayProducts,filterBySite,searchProducts};
+module.exports = {displayProducts,searchProducts};
