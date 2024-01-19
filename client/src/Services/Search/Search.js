@@ -1,15 +1,22 @@
 import React, { useState } from 'react';
+import SearchIcon from "@mui/icons-material/Search";
+import Dummy from './Dummy';
+import { useNavigate } from 'react-router-dom';
 
 const SearchBar = () => {
   const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
 
-  const handleKeyPress = (event) => {
+  
+  const handleKeyDown = (event) => {
+
     if (event.key === 'Enter') {
+     
       performSearch();
     }
   };
-
   const searchClicked = () => {
+    
     performSearch();
   };
 
@@ -17,15 +24,13 @@ const SearchBar = () => {
     fetchDataFromServer(searchQuery);
   };
 
-  const fetchDataFromServer = (query) => {
-    // Your logic to fetch data from the server goes here
-    // Use fetch API or any other method to make an HTTP request
-    // Example using fetch API:
-    fetch(`/your-api-endpoint?query=${encodeURIComponent(query)}`)
+  const fetchDataFromServer = async (query) => {
+    
+    await fetch(`http://localhost:5000/api/products/title/${encodeURIComponent(query)}`)
       .then((response) => response.json())
       .then((data) => {
-        // Process the data received from the server
-        console.log(data);
+        
+        navigate(`/api/products/title/${encodeURIComponent(query)}`);
       })
       .catch((error) => {
         console.error('Error fetching data from server:', error);
@@ -35,14 +40,14 @@ const SearchBar = () => {
   return (
     <div className="header_search">
       <div className="header_searchContainer">
-        <input
-          className="header_searchInput"
-          type="text"
-          placeholder="Search..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          onKeyPress={handleKeyPress}
-        />
+      <input
+        className="header_searchInput"
+        type="text"
+        placeholder="Search..."
+        value={searchQuery}
+        onChange={(e) => setSearchQuery(e.target.value)}
+        onKeyDown={handleKeyDown}
+      />
         <SearchIcon className="header_searchIcon" onClick={searchClicked} />
       </div>
     </div>

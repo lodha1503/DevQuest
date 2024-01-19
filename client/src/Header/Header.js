@@ -1,10 +1,11 @@
 // Since Header is a component we need to capitalize the starting letter of the file
-import SearchIcon from "@mui/icons-material/Search";
+
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../StateProvider";
 import React, { useEffect, useState } from "react";
+import SearchBar from "../Services/Search/Search";
 
 function Header() {
     const [{ basket, user }, dispatch] = useStateValue();
@@ -42,8 +43,8 @@ function Header() {
                         src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
                     />
                 </Link>
-
-                <div className="header_search">
+                <SearchBar />
+                {/* <div className="header_search">
                     <div className="header_searchContainer">
                         <input
                             className="header_searchInput"
@@ -52,7 +53,7 @@ function Header() {
                         />
                         <SearchIcon className="header_searchIcon" />
                     </div>
-                </div>
+                </div> */}
 
                 <div className="header_nav" >
                     <Link to="/login" className="auth underline">
