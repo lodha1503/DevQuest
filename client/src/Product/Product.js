@@ -29,7 +29,8 @@ function Product({id,title,image,price,rating}) {
     setPopupVisibility(false);
   };
   return (
-    <div className={`product ${isPopupVisible ? 'popup-active' : ''}`} onClick={openPopup}>
+    <>
+    <div className={`product`} onClick={openPopup}>
 
       <div className="product_info">
         <p>{title}</p>
@@ -49,16 +50,19 @@ function Product({id,title,image,price,rating}) {
 
       <button onClick={addToBasket}>Add to Wishlist</button>
 
-      {isPopupVisible && (
-        <ProductPopup
-          product={{ id, title, image, price, rating }}
-          onClose={closePopup}
-          isPopupVisible={isPopupVisible}
-        />
-      )}
+     
 
 
     </div>
+   
+    {isPopupVisible && (
+      <ProductPopup
+        product={{ id, title, image, price, rating }}
+        onClose={closePopup}
+        isPopupVisible={isPopupVisible}
+      />
+    )}
+    </>
   )
 }
 

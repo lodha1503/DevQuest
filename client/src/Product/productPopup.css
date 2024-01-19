@@ -12,10 +12,9 @@
     align-items: center;
     z-index: 2;
   }
+  
 
-  .productOpacity{
-    background: rgba(0, 0, 0, 0.5);
-  }
+
   
   .popupContent {
     background: white;
