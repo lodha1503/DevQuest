@@ -2,7 +2,7 @@ const express = require('express');
 
 
 const router = require('./Routes/Product');
-const port = 3001; // You can choose any available port
+const port = 5000; // You can choose any available port
 
 const app = express();
 app.use("/api/products/", router)

@@ -52,16 +52,16 @@ const searchProducts = (req,res) => {
     }
 };
 
-//Filter
-const filterBySite = (req,res) =>{
-    const productSite = req.params.site.toLowerCase();
-    const productTitle = req.params.title.toLowerCase();
-    const exactMatch = data.filter(item => item.site.toLowerCase() === productSite && item.title.toLowerCase() === productTitle);
+// //Filter
+// const filterBySite = (req,res) =>{
+//     const productSite = req.params.site.toLowerCase();
+//     const productTitle = req.params.title.toLowerCase();
+//     const exactMatch = data.filter(item => item.site.toLowerCase() === productSite && item.title.toLowerCase() === productTitle);
 
 
-    res.json(exactMatch);
+//     res.json(exactMatch);
 
-}
+// }
 
 
 module.exports = {displayProducts,filterBySite,searchProducts};
