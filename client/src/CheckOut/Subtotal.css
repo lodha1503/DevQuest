@@ -1,4 +1,4 @@
-.subtototal{
+.subtotal{
   display:flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,23 +10,18 @@
   border-radius: 3px;
 }
 
-.subtototal_gift{
-  display: flex;
-  align-items: center;
+.subtotal button {
+  background-color: #007bff; /* Set the background color */
+  color: #fff; /* Set the text color */
+  padding: 10px 25px; /* Add padding for better spacing */
+  border: none;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+
+  /* Additional styles for hover effect */
 }
 
-.subtototal_gift > input{
-  margin-right: 5px;
-}
-
-.subtototal > button{
-  background: #f0c14b;
-  border-radius:2px;
-  width:100%;
-  height:30px;
-  border: 1px solid;
-  margin-top: 10px;
-  border-color: #a88734 #9c7e31 #846a29;
-  color:#111;
-
+.subtotal button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
 }
