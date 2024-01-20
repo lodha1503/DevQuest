@@ -10,6 +10,8 @@
   /* max-width:100px; */
   background-color: white;
   z-index: 1;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .product > img{
@@ -23,12 +25,20 @@
   margin-top:5px
 }
 
-.product>button{
-  background: #f0c14b;
-  border: 1px solid;
-  margin-top: 10px;
-  border-color: #a88737 #9c7e31 #846a29;
-  color:#111;
+.product button {
+  background-color: #007bff; /* Set the background color */
+  color: #fff; /* Set the text color */
+  padding: 10px 25px; /* Add padding for better spacing */
+  border: none;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+
+  /* Additional styles for hover effect */
+}
+
+.product button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
 }
 .product_info {
   margin: 0;

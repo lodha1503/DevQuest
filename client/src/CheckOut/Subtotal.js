@@ -9,7 +9,7 @@ function Subtotal() {
 
   const [{basket}, dispatch] = useStateValue();
   return (
-    <div className='subtototal'>
+    <div className='subtotal'>
       <CurrencyFormat      
         
         renderText={(value)=>(
@@ -17,9 +17,7 @@ function Subtotal() {
             <p>
               Subtotal ({basket.length} items): <strong>{value}</strong>
             </p>
-            <small className='subtotal_gift'>
-              <input type="checkbox" /> This order contains a gift
-            </small>
+          
           </>
         )}
         decimalScale={2}

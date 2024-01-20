@@ -8,13 +8,23 @@
   padding-left:20px;
 }
 
-.checkoutProduct_info > button{
-  background: #f0c14b;
-  border: 1px solid;
-  margin-top: 10px;
-  border-color: #a88734 #9c7e31 #846a29;
-  color:#111;
+.checkoutProduct_info button {
+  background-color: #007bff; /* Set the background color */
+  color: #fff; /* Set the text color */
+  padding: 10px 25px; /* Add padding for better spacing */
+  border: none;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+
+  /* Additional styles for hover effect */
 }
+
+.checkoutProduct button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+
 
 .checkoutProduct_rating{
   display:flex;
