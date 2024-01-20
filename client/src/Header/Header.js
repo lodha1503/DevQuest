@@ -58,12 +58,8 @@ function Header() {
                 <div className="header_nav" >
                     <Link to="/login" className="auth underline">
                         <div className="header_option">
-                            <span className="header_optionLineOne">
-                                {user ? "Hello Shreyansh  " : "Hello Guest"}
-                            </span>
-                            <span className="header_optionLineTwo">
-                                {user ? "Sign Out" : "Sign In"}
-                            </span>
+                            
+                           
                         </div>
                     </Link>
 

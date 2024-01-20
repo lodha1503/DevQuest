@@ -92,7 +92,7 @@ function Home() {
                     <Product
                         id={2}
                         title="OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)"
-                        price={217.91}
+                        price={2107.91}
                         image="https://m.media-amazon.com/images/I/61K7ujVUm+L._SX679_.jpg"
                         rating={4}
                     ></Product>
