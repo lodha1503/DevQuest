@@ -25,7 +25,7 @@
   margin-top:5px
 }
 
-.product button {
+.product .wishlist_button {
   background-color: #007bff; /* Set the background color */
   color: #fff; /* Set the text color */
   padding: 10px 25px; /* Add padding for better spacing */
@@ -37,17 +37,22 @@
   /* Additional styles for hover effect */
 }
 
-.product button:hover {
+.product .wishlist_button:hover {
   background-color: #0056b3; /* Change the background color on hover */
 }
 .product_info {
   margin: 0;
-  height: 80px; /* Set a specific height for product_info */
+  height: 100px; /* Set a specific height for product_info */
   margin-bottom: 15px;
   text-align: left;
+ 
 }
 
 .product_rating {
   display: flex;
+  color: black
 }
 
+.product .wishlist_active {
+  color: red;
+}

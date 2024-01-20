@@ -7,7 +7,8 @@ import Checkout from './CheckOut/Checkout'
 import Login from './Authentication/Login'
 import { useStateValue } from './StateProvider';
 import { auth } from './firebase';
-import Dummy from './Services/Search/Dummy';
+
+import OnSearch from './OnSearch/OnSearch';
 
 
 
@@ -47,14 +48,15 @@ function App() {
     <Router>
       
       <div className="app">
+      <Header/>
         <Routes>
-          <Route path='/api/products/title/:title' element={[<Dummy/>]}></Route>
+         
+          <Route path='/api/products/title/:title' element={[<OnSearch/>]}></Route>
           <Route path='/login' element={[<Login/>]}></Route>
-          <Route path='/checkout' element={[<Header/>,<Checkout/>]} />
-          <Route path='/' element={[<Header/>,<Home/>]} />
+          <Route path='/checkout' element={[<Checkout/>]} />
+          <Route path='/' element={[<Home/>]} />
           
           
-
         </Routes>
       </div>
     </Router>

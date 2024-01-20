@@ -3,16 +3,10 @@ const Fuse = require('fuse.js');
 const options = {
     keys: ['title'],
   };
+
+  console.log(data);
   
 const fuse = new Fuse(data, options);
-
-//suggestions
-
-
-
-
-
-
 
 
 // suggestions

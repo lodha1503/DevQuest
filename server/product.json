@@ -2,160 +2,181 @@
   {
     "id": 1,
     "site": "Amazon",
-    "title": "Football Shoes",
-    "price": "$69.99",
-    "image": "https://www.example.com/soccer-cleats.jpg",
-    "reviews": 120
+    "title": "Football Shoes | Puma Mens Attacanto Fg/Ag Football Shoe",
+    "price": 2249,
+    "min_price_notification": 1500,
+    "image": "https://m.media-amazon.com/images/I/51ChZkk7LRL._SY695_.jpg",
+    "ratings": 4
   },
   {
     "id": 2,
     "site": "Amazon",
-    "title": "Football",
-    "price": "$69.99",
-    "image": "https://www.example.com/soccer-cleats.jpg",
-    "reviews": 100
+    "title": "Football | Nivia Storm",
+    "price": 349,
+    "min_price_notification": 300,
+    "image": "https://m.media-amazon.com/images/I/413t41aFpJL._SX300_SY300_QL70_FMwebp_.jpg",
+    "ratings": 4
   },
   {
     "id": 3,
     "site": "Flipkart",
-    "title": "Football",
-    "price": "$69.99",
-    "image": "https://www.example.com/soccer-cleats.jpg",
-    "reviews": 90
+    "title": "Football | Nivia Storm",
+    "price": 429,
+    "min_price_notification": 350,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/ball/6/8/d/300-storm-football-size-5-5-20-1-1-football-nivia-original-imaggurhz3jukjd3.jpeg?q=70&crop=false",
+    "ratings": 4
   },
   {
     "id": 4,
     "site": "Myntra",
-    "title": "Soccer Cleats",
-    "price": "$69.99",
-    "image": "https://www.example.com/soccer-cleats.jpg",
-    "reviews": 30
+    "title": "Football Shoes | Vector X",
+    "price": 969,
+    "min_price_notification": 800,
+    "image": "https://m.media-amazon.com/images/I/91Mlmsl5BPL._SY695_.jpg",
+    "ratings": 3
   },
   {
     "id": 5,
-    "site": "Amazon",
-    "title": "a",
-    "price": "$69.99",
-    "image": "https://www.example.com/soccer-cleats.jpg",
-    "reviews": 12
+    "site": "Flipkart",
+    "title": "Iphone | Apple iPhone 15 (Blue, 128 GB)",
+    "price": 72990,
+    "min_price_notification": 70000,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70&crop=false",
+    "ratings": 5
   },
   {
     "id": 6,
     "site": "Amazon",
-    "title": "a",
-    "price": "$69.99",
-    "image": "https://www.example.com/soccer-cleats.jpg"
+    "title": "IPhone | Apple iPhone 14 Plus (128 GB) - Midnight",
+    "price": 66999,
+    "min_price_notification": 65000,
+    "image": "https://m.media-amazon.com/images/I/61B0+qQriPL._SX679_.jpg",
+    "ratings": 4
   },
   {
     "id": 7,
     "site": "Myntra",
-    "title": "Soccer Cleats",
-    "price": "$69.99",
-    "image": "https://www.example.com/soccer-cleats.jpg",
-    "reviews": 10
+    "title": "IPhone | Back Cover Case for iPhone 13 (Navy Blue, TPU) ",
+    "price": 284,
+    "min_price_notification": 250,
+    "image": "https://m.media-amazon.com/images/I/31lLkVjux+L._SY300_SX300_.jpg",
+    "ratings": 4
   },
   {
     "id": 8,
     "site": "Flipkart",
-    "title": "Soccer Cleats",
-    "price": "$69.99",
-    "image": "https://www.example.com/soccer-cleats.jpg",
-    "reviews": 1000
+    "title": "Football Shoes | FS-10 Football Shoes For Men",
+    "price": 569,
+    "min_price_notification": 500,
+    "image": "https://rukminim2.flixcart.com/image/832/832/kh5607k0-0/shoe/l/u/3/fs-10-8-golazo-black-original-imafx82fxpjgrhhm.jpeg?q=70&crop=false",
+    "ratings": 4
   },
   {
     "id": 9,
     "site": "Amazon",
-    "title": "Basketball",
-    "price": "$59.99",
-    "image": "https://www.example.com/basketball.jpg",
-    "reviews": 150
+    "title": "Phone | Realme narzo N53",
+    "price": 8999,
+    "min_price_notification": 8500,
+    "image": "https://m.media-amazon.com/images/I/71DSxfKzkJL._SX679_.jpg",
+    "ratings": 4
   },
   {
     "id": 10,
     "site": "Flipkart",
-    "title": "Running Shoes",
-    "price": "$79.99",
-    "image": "https://www.example.com/running-shoes.jpg",
-    "reviews": 80
+    "title": "Phone | MOTOROLA g54 5G",
+    "price": 13999,
+    "min_price_notification": 13000,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/z/1/c/-original-imagt5uhcnfy66wa.jpeg?q=70&crop=false",
+    "ratings": 4
   },
   {
     "id": 11,
-    "site": "Myntra",
-    "title": "Hiking Boots",
-    "price": "$89.99",
+    "site": "Amazon",
+    "title": "Tshirts | Lymio Men T-Shirt ",
+    "price": 359,
+    "min_price_notification": 300,
     "image": "https://www.example.com/hiking-boots.jpg",
-    "reviews": 60
+    "ratings": 4
   },
   {
     "id": 12,
-    "site": "Amazon",
-    "title": "Tennis Racket",
-    "price": "$49.99",
-    "image": "https://www.example.com/tennis-racket.jpg",
-    "reviews": 110
+    "site": "Flipkart",
+    "title": "Tshirts | Round Neck Polyester Grey T-Shirt",
+    "price": 279,
+    "min_price_notification": 250,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/p/j/c/s-ts12-vebnor-original-imagp6jcsgekgda4.jpeg?q=70&crop=false",
+    "ratings": 3
   },
   {
     "id": 13,
-    "site": "Flipkart",
-    "title": "Baseball Glove",
-    "price": "$39.99",
-    "image": "https://www.example.com/baseball-glove.jpg",
-    "reviews": 70
+    "site": "Myntra",
+    "title": "Tshirts | Maniac Raglan Sleeves Typography Printed Boxy T-shirt",
+    "price": 547,
+    "min_price_notification": 500,
+    "image": "https://m.media-amazon.com/images/I/612Rl6GKHoL._SX679_.jpg",
+    "ratings": 4
   },
   {
     "id": 14,
-    "site": "Myntra",
-    "title": "Golf Clubs",
-    "price": "$199.99",
-    "image": "https://www.example.com/golf-clubs.jpg",
-    "reviews": 45
+    "site": "Amazon",
+    "title": "Watches | Fire-Boltt Phoenix",
+    "price": 1999,
+    "min_price_notification": 1800,
+    "image": "https://m.media-amazon.com/images/I/819DWQLgjKL._SX679_.jpg",
+    "ratings": 4
   },
   {
     "id": 15,
-    "site": "Amazon",
-    "title": "Swimming Goggles",
-    "price": "$19.99",
-    "image": "https://www.example.com/swimming-goggles.jpg",
-    "reviews": 200
+    "site": "Myntra",
+    "title": "Watches | CASIO VINTAGE Men Watch D011 A-158WA-1Q",
+    "price": 1695,
+    "min_price_notification": 1500,
+    "image": "https://m.media-amazon.com/images/I/61ybeKQto8L._SY879_.jpg",
+    "ratings": 5
   },
   {
     "id": 16,
     "site": "Flipkart",
-    "title": "Yoga Mat",
-    "price": "$29.99",
-    "image": "https://www.example.com/yoga-mat.jpg",
-    "reviews": 90
+    "title": "Watches | SONATA Volt Analog Watch",
+    "price": 506,
+    "min_price_notification": 450,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/watch/i/q/e/-original-imagnre8pbpnfhgz.jpeg?q=70&crop=false",
+    "ratings": 4
   },
   {
     "id": 17,
     "site": "Myntra",
-    "title": "Cycling Helmet",
-    "price": "$39.99",
-    "image": "https://www.example.com/cycling-helmet.jpg",
-    "reviews": 55
+    "title": "Earphones | OnePlus Bullets Z2 Wireless Earphones",
+    "price": 1499,
+    "min_price_notification": 1200,
+    "image": "https://m.media-amazon.com/images/I/31pAe23ncfL._SX300_SY300_QL70_FMwebp_.jpg",
+    "ratings": 3
   },
   {
     "id": 18,
     "site": "Amazon",
-    "title": "Dumbbell Set",
-    "price": "$89.99",
-    "image": "https://www.example.com/dumbbell-set.jpg",
-    "reviews": 120
+    "title": "Earphones | BoAt Bassheads 152",
+    "price": 599,
+    "min_price_notification": 500,
+    "image": "https://m.media-amazon.com/images/I/51TRuzlKyvS._SX679_.jpg",
+    "ratings": 4
   },
   {
     "id": 19,
     "site": "Flipkart",
-    "title": "Jump Rope",
-    "price": "$9.99",
-    "image": "https://www.example.com/jump-rope.jpg",
-    "reviews": 40
+    "title": "Earphones | Realme Buds 2",
+    "price": 599,
+    "min_price_notification": 550,
+    "image": "https://rukminim2.flixcart.com/image/832/832/k20r8nk0/headphone/7/w/c/realme-buds-2-original-imafhgrckbygsyrk.jpeg?q=70&crop=false",
+    "ratings": 4
   },
   {
     "id": 20,
-    "site": "Myntra",
-    "title": "Treadmill",
-    "price": "$499.99",
-    "image": "https://www.example.com/treadmill.jpg",
-    "reviews": 180
+    "site": "Amazon",
+    "title": "Alexa",
+    "price": 5499,
+    "min_price_notification": 5000,
+    "image": "https://m.media-amazon.com/images/I/81hgjKwsdHL._SX679_.jpg",
+    "ratings": 4
   }
 ]
