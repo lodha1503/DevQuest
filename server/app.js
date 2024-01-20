@@ -21,7 +21,6 @@ dotenv.config();
 
 const Mongodb_Url = process.env.MONGO_URL
 
-
 app.use(express.json());
 
 app.use("/api/users/", userRoutes)

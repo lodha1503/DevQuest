@@ -32,7 +32,7 @@ function CheckoutProduct({id,title,image,price,rating}) {
             Array(rating).fill().map((_,i)=>(<p>&#x2B50;</p>))
           }
         </div>
-        <button onClick={removeFromBasket}>Remove from Basket</button>
+        <button onClick={removeFromBasket}>Remove from wishList</button>
 
 
       </div>
