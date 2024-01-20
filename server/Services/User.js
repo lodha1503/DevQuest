@@ -56,8 +56,11 @@ const login = async (req, res) => {
     const data = {
       user: {
         id: user.id,
+        products: user.products
       },
     };
+    console.log(process.env.JWT_SECRET)
+    const token = JWT.sign(data, process.env.JWT_SECRET);
 
 
     success = true;
