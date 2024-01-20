@@ -15,8 +15,16 @@ const options = {
 }
 app.use(cors(options))
 dotenv.config();
-app.use("/api/users/", userRoutes)
+
+dotenv.config();
+
+
+const Mongodb_Url = process.env.MONGO_URL
+
+
 app.use(express.json());
+
+app.use("/api/users/", userRoutes)
 app.use("/api/products/", productRoutes)
 
 
@@ -86,3 +94,15 @@ app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
 
+//MongoDB setup
+mongoose.connect(Mongodb_Url, {
+	useNewUrlParser: true,
+  useCreateIndex: true,
+  useFindAndModify: false,
+  useUnifiedTopology: true,
+
+}).then(() => {
+	app.listen(PORT, () => console.log(`Server PORT ${PORT}`))
+}).catch((err) => {
+	// console.log(`${err}: did not connect`)
+})
