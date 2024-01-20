@@ -24,3 +24,13 @@
 .suggestionItem:last-child {
   border-bottom: none;
 }
+
+.mic{
+  height: 24px;
+  border: 0;
+}
+
+.speechButton{
+  border: none;
+  background-color: white;
+}

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { useStateValue } from "../StateProvider";
 import React, { useEffect, useState } from "react";
 import SearchBar from "../Services/Search/Search";
-
+import hlogo from "../static/images/hlogo.png"
 function Header() {
     const [{ basket, user }, dispatch] = useStateValue();
     const [isScrolled, setIsScrolled] = useState(false);
@@ -40,7 +40,7 @@ function Header() {
                 <Link to="/">
                     <img
                         className="header_logo"
-                        src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
+                        src={hlogo}
                     />
                 </Link>
                 <SearchBar />

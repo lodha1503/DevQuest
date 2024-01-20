@@ -63,22 +63,10 @@ const searchProducts = (req,res) => {
     const query = req.params.title.toLowerCase();
   
 
-    const exactMatch = data.filter(item => item.title.toLowerCase() === query);
   
-    if (exactMatch.length > 0) {
       
-      res.json(exactMatch);
-    } else {
-     
-      const fuseResults = fuse.search(query);
-  
-      if (fuseResults.length > 0) {
-        const titles = fuseResults.map(result => result.item.title)
-        res.json(titles);
-      } else {
-        res.status(404).json({ error: 'Products not found with the specified title' });
-      }
-    }
+      res.json(query);
+    
 };
 
 // //Filter
